@@ -14,12 +14,12 @@ Researchers can use this database to produce useful and impactful scholarly work
 |--------------------------|----------|---------------------------------------------------------------|-----------------------------------|
 | `Admission_DATE`         | Date     | Date of hospital admission                                     | Used to calculate length of stay |
 | `Discharge_DATE` / `date of Death` | Date | Date of discharge or death                                     | Final status determination        |
-| `Outcome`                | Categorical (Survived/Death) | Patient outcome (target variable)                              |   Target variable                |
+| `Outcome`                | Categorical (Recovered/Not Recovered) | Patient outcome (target variable)                              |   Target variable                |
 | `Patient Age`            | Numeric  | Patient's age in years                                         | Risk increases with age           |
-| `Gender`                 | Categorical (M/F) | Biological sex                                                 | Males may show higher severity    |
+| `Gender`                 | Categorical (Male/Female) | Biological sex                                                 | Males may show higher severity    |
 | `Sample Collection Date`| Date     | Date CBC sample was taken                                      | Helps track timeline              |
 | `Treatment Provided`     | Text     | Description of treatment approach                              | Can suggest intervention level    |
-| `Ventilated`             | Categorical (Y/N) | Whether the patient was on ventilation                        | Proxy for critical condition      |
+| `Ventilated`             | Categorical (Yes/No) | Whether the patient was on ventilation                        | Proxy for critical condition      |
 
 ---
 
